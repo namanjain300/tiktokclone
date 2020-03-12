@@ -67,12 +67,12 @@ class _HomePageState extends State<HomePage> {
 //   controller: chewieController,
 // );
 
-  @override
-  void dispose() {
-    videoPlayerController.dispose();
-    // chewieController.dispose();
-    super.dispose();
-  }
+//   @override
+//   void dispose() {
+//     videoPlayerController.dispose();
+//     // chewieController.dispose();
+//     super.dispose();
+//   }
 
   @override
   Widget build(BuildContext context) {
